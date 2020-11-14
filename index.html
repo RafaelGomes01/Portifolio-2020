@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!--Importação dos icones do font awesome-->
+    <title>Rafael Gomes - Portifolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content-header">
+            <div class="logo-header">
+                <h2>Rafael Gomes</h2>
+            </div>
+            <div class="menu-header">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Projetos</a>
+                <a href="#">Contatos</a>
+            </div>
+            <a href="#" id="header-bars" onclick="botaoDoMenu()"><i class="fas fa-bars"></i></a> <!--Icone barras para mobile-->
+        </div>
+    </header>
+    <div id="menu-response" class="menu-header-mobile">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contatos</a>
+    </div>
+
+    <main class="banner">
+        <div class="content-banner aparecer">
+            <p>Portifolio</p>
+            <h1>Rafael Gomes</h1>
+            <p class="line-banner typing-animation">Desenvolvedor <span>Front-End</span></p>
+            <p>Tecnico em Redes de Computadores pela escola SENAI de Informatica e agora cursando Desenvolvimento de Sistemas pela mesma escola.</p>
+            <a href="#">Continuar</a>
+        </div>
+    </main>
+</body>
+<script>
+    function botaoDoMenu() {
+      var navMobile = document.getElementById("menu-response");
+
+      if (navMobile.style.display === "block") {
+        navMobile.style.display = "none";
+      } else {
+        navMobile.style.display = "block";
+      }
+    }
+ </script>
+</html>
