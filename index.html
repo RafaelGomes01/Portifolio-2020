@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+<!DOCTYPE html> <!--Definir tipo do documento - HTML5-->
+<html lang="pt-br"> <!--Inicio do HTML com atributo de linguagem - Portugues Brasil-->
+<head> <!--Inicio Head-->
+    <meta charset="UTF-8"> <!--Conjunto de caracteres UTF-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ViewPort para responsivo-->
+    <link rel="stylesheet" href="estilos/style.css"> <!--Atribuir CSS ao HTML-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!--Importação dos icones do font awesome-->
-    <title>Rafael Gomes - Portifolio</title>
-</head>
-<body>
-    <header class="header">
+    <title>Rafael Gomes - Portifolio</title> <!--Titulo da Pagina-->
+</head> <!--Fim Head-->
+<body> <!--Inicio Body-->
+
+    <!--Header - Header-->
+    <header class="header"> 
         <div class="content-header">
             <div class="logo-header">
                 <h2>Rafael Gomes</h2>
@@ -29,6 +31,7 @@
         <a href="#">Contatos</a>
     </div>
 
+    <!-- Banner - Main -->
     <main class="banner">
         <div class="content-banner aparecer">
             <p>Portifolio</p>
@@ -39,6 +42,7 @@
         </div>
     </main>
 
+    <!-- About - Section -->
     <section class="about">
         <div class="orange-about"></div>
         <div class="black-about"></div>
@@ -93,8 +97,8 @@
         </div>
     </section>
 
-</body>
-<script>
+</body> <!-- Fim Body -->
+<script> // Script para funcionamento do Botão do menu 
     function botaoDoMenu() {
       var navMobile = document.getElementById("menu-response");
 
@@ -104,5 +108,5 @@
         navMobile.style.display = "block";
       }
     }
- </script>
-</html>
+</script> <!--Fim Script para funcionamento do Botão do menu--> 
+</html> <!--Fim Html-->
