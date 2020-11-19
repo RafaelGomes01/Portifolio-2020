@@ -344,35 +344,7 @@
 
 /* Extra Small - Others Small Devices */
 @media only screen and (max-width: 576px){
-
-}
-
-@media only screen and (max-width: 376px){
-    /* Banner - Main */
-    .content-banner p:nth-child(1){
-        font-size: 24px;
-    }
-
-    .content-banner h1{
-        font-size: 72px;
-    }
-
-    .line-banner{
-        font-size: 24px;
-    }
-
-    .content-banner p:nth-last-child(2){
-        font-size: 18px;
-    }
-
-    .content-banner a{
-        font-size: 26px;
-        padding: 8px 20px;
-        top: 10px;
-    }
-
     /* About - Section */
-
     .about{
         height: 1500px;
     }
@@ -432,6 +404,31 @@
         display: inline;
         width: 274px;
         height: 338px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    /* Banner - Main */
+    .content-banner p:nth-child(1){
+        font-size: 24px;
+    }
+
+    .content-banner h1{
+        font-size: 72px;
+    }
+
+    .line-banner{
+        font-size: 24px;
+    }
+
+    .content-banner p:nth-last-child(2){
+        font-size: 18px;
+    }
+
+    .content-banner a{
+        font-size: 26px;
+        padding: 8px 20px;
+        top: 10px;
     }
 }
 
