@@ -32,10 +32,10 @@ Esse projeto foi feito por Rafael Gomes desenvolvedor Full-Stack e Tecnico em Re
 
 ### Principais Tecnologias 📶
 <p id="tec">
-Aqui uma breve descrição das tecnologias usadas necesse projeto...
-* HTML - Para a estrutura da Pagina.
-* CSS - Para o estilo da Pagina.
-* JavaScript - Para animações e soluções diferentes.
+Aqui uma breve descrição das tecnologias usadas necesse projeto... <br>
+- HTML - Para a estrutura da Pagina.<br>
+- CSS - Para o estilo da Pagina.<br>
+- JavaScript - Para animações e soluções diferentes.<br>
 
 
 <!-- Para Acessar -->
