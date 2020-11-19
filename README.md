@@ -42,11 +42,9 @@ Aqui uma breve descrição das tecnologias usadas necesse projeto...
 ## Para acessar 💻
 <p id="acess">
 Para conseguir entrar no portifolio basta acessar:
-<<<<<<< HEAD
 
 https://rafaelgomes01.github.io/Portifolio-2020
 
->>>>>>> 6f92c21c3ddf99c88c7561bcc0006e25dd4d6375
 ou clicar aqui ---> <a href="https://rafaelgomes01.github.io/Portifolio-2020/"><strong>Ver o portifolio</strong></a>
 <br>
 <br>
